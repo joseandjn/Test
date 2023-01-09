@@ -9,9 +9,43 @@ import UIKit
 
 class MainListViewController: UIViewController {
     
-    var items: [(title: String, useStoryboard: Bool)] = [
-        ("Login Simple UITest", true),
-        ("Card View Customizadas", false)]
+    struct Controller {
+        let title: String
+        let useStoryboard: Bool
+        var viewController: UIViewController.Type?
+    }
+    
+    var items: [Controller] = [
+        .init(
+            title: "Login Simple UITest",
+            useStoryboard: true
+        ),
+        .init(
+            title: "Card View Customizadas",
+            useStoryboard: false,
+            viewController: ExampleCardViewController.self
+        ),
+        .init(
+            title: "Test RxSwift",
+            useStoryboard: false,
+            viewController: RxSwiftTestViewController.self
+        ),
+        .init(
+            title: "Example Core Data",
+            useStoryboard: false,
+            viewController: CompanyListViewController.self
+        ),
+        .init(
+            title: "Present Push",
+            useStoryboard: false,
+            viewController: ScreenBViewController.self
+        ),
+        .init(
+            title: "Lista",
+            useStoryboard: false,
+            viewController: ListaTableViewController.self
+        )
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,11 +71,12 @@ extension MainListViewController: UITableViewDataSource {
 extension MainListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let useStoryboard = items[indexPath.row].useStoryboard
-        if useStoryboard {
+        let item = items[indexPath.row]
+        if item.useStoryboard {
             gotoViewController(from : LoginViewController.self)
         } else {
-            gotoViewController(to: ExampleCardViewController.self)
+            guard let viewController = item.viewController else { return }
+            gotoViewController(to: viewController)
         }
     }
     

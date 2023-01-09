@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E22AEE529300C7800BA47EF /* ScreenAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22AEE329300C7800BA47EF /* ScreenAViewController.swift */; };
+		6E22AEE629300C7800BA47EF /* ScreenAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E22AEE429300C7800BA47EF /* ScreenAViewController.xib */; };
+		6E22AEE929300C9600BA47EF /* ScreenBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22AEE729300C9600BA47EF /* ScreenBViewController.swift */; };
+		6E22AEEA29300C9600BA47EF /* ScreenBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E22AEE829300C9600BA47EF /* ScreenBViewController.xib */; };
+		6E22AEEF2930145C00BA47EF /* ScreenCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22AEED2930145C00BA47EF /* ScreenCViewController.swift */; };
+		6E22AEF02930145C00BA47EF /* ScreenCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E22AEEE2930145C00BA47EF /* ScreenCViewController.xib */; };
+		6E5D10AE28F70510009E5BB3 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D10AC28F70510009E5BB3 /* TestModel.xcdatamodeld */; };
+		6E5D10B128F7071B009E5BB3 /* CompanyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D10AF28F7071B009E5BB3 /* CompanyListTableViewController.swift */; };
+		6E5D10B228F7071B009E5BB3 /* CompanyListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D10B028F7071B009E5BB3 /* CompanyListTableViewController.xib */; };
+		6E5D10B528F707D7009E5BB3 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D10B428F707D7009E5BB3 /* CompanyModel.swift */; };
+		6E5D10B728F7722B009E5BB3 /* CompanyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D10B628F7722B009E5BB3 /* CompanyData.swift */; };
+		6E5D10BA28F8BA8D009E5BB3 /* CompanyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D10B828F8BA8D009E5BB3 /* CompanyListViewController.swift */; };
+		6E5D10BB28F8BA8D009E5BB3 /* CompanyListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D10B928F8BA8D009E5BB3 /* CompanyListViewController.xib */; };
+		6E6FC2F92865390100352603 /* ExampleARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6FC2F82865390100352603 /* ExampleARCViewController.swift */; };
+		6E84E78F295D444F00243659 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E84E78E295D444F00243659 /* ListaTableViewController.swift */; };
+		6E84E792295D44AB00243659 /* TypeATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E84E790295D44AB00243659 /* TypeATableViewCell.swift */; };
+		6E84E793295D44AB00243659 /* TypeATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E84E791295D44AB00243659 /* TypeATableViewCell.xib */; };
+		6E89884C28D22C770017402B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E89884B28D22C770017402B /* RxSwift */; };
+		6E89884F28D22D220017402B /* RxSwiftTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E89884D28D22D220017402B /* RxSwiftTestViewController.swift */; };
+		6E89885028D22D220017402B /* RxSwiftTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E89884E28D22D220017402B /* RxSwiftTestViewController.xib */; };
 		6E96E91827D1872400F9B07A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E96E91727D1872400F9B07A /* LoginViewController.swift */; };
 		6E96E91B27D1956200F9B07A /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E96E91A27D1956200F9B07A /* LoginUITests.swift */; };
 		6E96E91E27D97BBD00F9B07A /* UICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E96E91D27D97BBD00F9B07A /* UICardView.swift */; };
 		6E96E92027D97C2900F9B07A /* ExampleCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E96E91F27D97C2900F9B07A /* ExampleCardViewController.swift */; };
 		6ECBFD4A27EA4803009114DF /* ModalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECBFD4927EA4803009114DF /* ModalsViewController.swift */; };
-		6ECBFD4D27EA482D009114DF /* JBottomModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECBFD4C27EA482D009114DF /* JBottomModal.swift */; };
 		6EE8AB8B27BD5E7400034EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8AB8A27BD5E7400034EC7 /* AppDelegate.swift */; };
 		6EE8AB8D27BD5E7400034EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8AB8C27BD5E7400034EC7 /* SceneDelegate.swift */; };
 		6EE8AB8F27BD5E7400034EC7 /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8AB8E27BD5E7400034EC7 /* MainListViewController.swift */; };
@@ -42,12 +61,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E22AEE329300C7800BA47EF /* ScreenAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAViewController.swift; sourceTree = "<group>"; };
+		6E22AEE429300C7800BA47EF /* ScreenAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenAViewController.xib; sourceTree = "<group>"; };
+		6E22AEE729300C9600BA47EF /* ScreenBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBViewController.swift; sourceTree = "<group>"; };
+		6E22AEE829300C9600BA47EF /* ScreenBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenBViewController.xib; sourceTree = "<group>"; };
+		6E22AEED2930145C00BA47EF /* ScreenCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCViewController.swift; sourceTree = "<group>"; };
+		6E22AEEE2930145C00BA47EF /* ScreenCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenCViewController.xib; sourceTree = "<group>"; };
+		6E5D10AD28F70510009E5BB3 /* CompanyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CompanyModel.xcdatamodel; sourceTree = "<group>"; };
+		6E5D10AF28F7071B009E5BB3 /* CompanyListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListTableViewController.swift; sourceTree = "<group>"; };
+		6E5D10B028F7071B009E5BB3 /* CompanyListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyListTableViewController.xib; sourceTree = "<group>"; };
+		6E5D10B428F707D7009E5BB3 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		6E5D10B628F7722B009E5BB3 /* CompanyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyData.swift; sourceTree = "<group>"; };
+		6E5D10B828F8BA8D009E5BB3 /* CompanyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyListViewController.swift; sourceTree = "<group>"; };
+		6E5D10B928F8BA8D009E5BB3 /* CompanyListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyListViewController.xib; sourceTree = "<group>"; };
+		6E6FC2F82865390100352603 /* ExampleARCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleARCViewController.swift; sourceTree = "<group>"; };
+		6E84E78E295D444F00243659 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		6E84E790295D44AB00243659 /* TypeATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeATableViewCell.swift; sourceTree = "<group>"; };
+		6E84E791295D44AB00243659 /* TypeATableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeATableViewCell.xib; sourceTree = "<group>"; };
+		6E89884D28D22D220017402B /* RxSwiftTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTestViewController.swift; sourceTree = "<group>"; };
+		6E89884E28D22D220017402B /* RxSwiftTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftTestViewController.xib; sourceTree = "<group>"; };
 		6E96E91727D1872400F9B07A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6E96E91A27D1956200F9B07A /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		6E96E91D27D97BBD00F9B07A /* UICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICardView.swift; sourceTree = "<group>"; };
 		6E96E91F27D97C2900F9B07A /* ExampleCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCardViewController.swift; sourceTree = "<group>"; };
 		6ECBFD4927EA4803009114DF /* ModalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalsViewController.swift; sourceTree = "<group>"; };
-		6ECBFD4C27EA482D009114DF /* JBottomModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBottomModal.swift; sourceTree = "<group>"; };
 		6EE8AB8727BD5E7400034EC7 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE8AB8A27BD5E7400034EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EE8AB8C27BD5E7400034EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E89884C28D22C770017402B /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +126,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E22AEE229300C2700BA47EF /* PresentAndPush */ = {
+			isa = PBXGroup;
+			children = (
+				6E22AEE329300C7800BA47EF /* ScreenAViewController.swift */,
+				6E22AEE429300C7800BA47EF /* ScreenAViewController.xib */,
+				6E22AEE729300C9600BA47EF /* ScreenBViewController.swift */,
+				6E22AEE829300C9600BA47EF /* ScreenBViewController.xib */,
+				6E22AEED2930145C00BA47EF /* ScreenCViewController.swift */,
+				6E22AEEE2930145C00BA47EF /* ScreenCViewController.xib */,
+			);
+			path = PresentAndPush;
+			sourceTree = "<group>";
+		};
+		6E5D10A828F70405009E5BB3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D10B328F707BF009E5BB3 /* Model */,
+				6E5D10AF28F7071B009E5BB3 /* CompanyListTableViewController.swift */,
+				6E5D10B028F7071B009E5BB3 /* CompanyListTableViewController.xib */,
+				6E5D10B828F8BA8D009E5BB3 /* CompanyListViewController.swift */,
+				6E5D10B928F8BA8D009E5BB3 /* CompanyListViewController.xib */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6E5D10B328F707BF009E5BB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D10AC28F70510009E5BB3 /* TestModel.xcdatamodeld */,
+				6E5D10B628F7722B009E5BB3 /* CompanyData.swift */,
+				6E5D10B428F707D7009E5BB3 /* CompanyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E6FC2F7286538E700352603 /* ExampleARC */ = {
+			isa = PBXGroup;
+			children = (
+				6E6FC2F82865390100352603 /* ExampleARCViewController.swift */,
+			);
+			path = ExampleARC;
+			sourceTree = "<group>";
+		};
+		6E84E78D295D441E00243659 /* Listas */ = {
+			isa = PBXGroup;
+			children = (
+				6E84E78E295D444F00243659 /* ListaTableViewController.swift */,
+				6E84E790295D44AB00243659 /* TypeATableViewCell.swift */,
+				6E84E791295D44AB00243659 /* TypeATableViewCell.xib */,
+			);
+			path = Listas;
+			sourceTree = "<group>";
+		};
+		6E89884928D22B720017402B /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6E89884D28D22D220017402B /* RxSwiftTestViewController.swift */,
+				6E89884E28D22D220017402B /* RxSwiftTestViewController.xib */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 		6E96E91527D183D300F9B07A /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +199,11 @@
 		6E96E91627D186E600F9B07A /* Elements */ = {
 			isa = PBXGroup;
 			children = (
+				6E84E78D295D441E00243659 /* Listas */,
+				6E22AEE229300C2700BA47EF /* PresentAndPush */,
+				6E5D10A828F70405009E5BB3 /* CoreData */,
+				6E89884928D22B720017402B /* RxSwift */,
+				6E6FC2F7286538E700352603 /* ExampleARC */,
 				6E96E91F27D97C2900F9B07A /* ExampleCardViewController.swift */,
 				6ECBFD4927EA4803009114DF /* ModalsViewController.swift */,
 				6E96E91727D1872400F9B07A /* LoginViewController.swift */,
@@ -127,7 +232,6 @@
 		6ECBFD4B27EA4811009114DF /* Modals */ = {
 			isa = PBXGroup;
 			children = (
-				6ECBFD4C27EA482D009114DF /* JBottomModal.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -201,6 +305,9 @@
 			dependencies = (
 			);
 			name = Test;
+			packageProductDependencies = (
+				6E89884B28D22C770017402B /* RxSwift */,
+			);
 			productName = Test;
 			productReference = 6EE8AB8727BD5E7400034EC7 /* Test.app */;
 			productType = "com.apple.product-type.application";
@@ -273,6 +380,9 @@
 				Base,
 			);
 			mainGroup = 6EE8AB7E27BD5E7300034EC7;
+			packageReferences = (
+				6E89884A28D22C770017402B /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 6EE8AB8827BD5E7400034EC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,9 +399,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5D10BB28F8BA8D009E5BB3 /* CompanyListViewController.xib in Resources */,
+				6E84E793295D44AB00243659 /* TypeATableViewCell.xib in Resources */,
+				6E89885028D22D220017402B /* RxSwiftTestViewController.xib in Resources */,
+				6E22AEF02930145C00BA47EF /* ScreenCViewController.xib in Resources */,
 				6EE8AB9727BD5E7C00034EC7 /* LaunchScreen.storyboard in Resources */,
+				6E22AEEA29300C9600BA47EF /* ScreenBViewController.xib in Resources */,
 				6EE8AB9427BD5E7C00034EC7 /* Assets.xcassets in Resources */,
 				6EE8AB9227BD5E7400034EC7 /* Main.storyboard in Resources */,
+				6E22AEE629300C7800BA47EF /* ScreenAViewController.xib in Resources */,
+				6E5D10B228F7071B009E5BB3 /* CompanyListTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,14 +433,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5D10AE28F70510009E5BB3 /* TestModel.xcdatamodeld in Sources */,
 				6E96E91827D1872400F9B07A /* LoginViewController.swift in Sources */,
-				6ECBFD4D27EA482D009114DF /* JBottomModal.swift in Sources */,
+				6E84E792295D44AB00243659 /* TypeATableViewCell.swift in Sources */,
 				6E96E91E27D97BBD00F9B07A /* UICardView.swift in Sources */,
 				6EE8AB8F27BD5E7400034EC7 /* MainListViewController.swift in Sources */,
+				6E5D10B728F7722B009E5BB3 /* CompanyData.swift in Sources */,
+				6E22AEEF2930145C00BA47EF /* ScreenCViewController.swift in Sources */,
+				6E89884F28D22D220017402B /* RxSwiftTestViewController.swift in Sources */,
+				6E5D10B528F707D7009E5BB3 /* CompanyModel.swift in Sources */,
+				6E22AEE929300C9600BA47EF /* ScreenBViewController.swift in Sources */,
+				6E22AEE529300C7800BA47EF /* ScreenAViewController.swift in Sources */,
+				6E6FC2F92865390100352603 /* ExampleARCViewController.swift in Sources */,
+				6E5D10BA28F8BA8D009E5BB3 /* CompanyListViewController.swift in Sources */,
 				6E96E92027D97C2900F9B07A /* ExampleCardViewController.swift in Sources */,
 				6EE8AB8B27BD5E7400034EC7 /* AppDelegate.swift in Sources */,
+				6E5D10B128F7071B009E5BB3 /* CompanyListTableViewController.swift in Sources */,
 				6EE8AB8D27BD5E7400034EC7 /* SceneDelegate.swift in Sources */,
 				6ECBFD4A27EA4803009114DF /* ModalsViewController.swift in Sources */,
+				6E84E78F295D444F00243659 /* ListaTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +629,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KS5PB26T68;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -512,13 +641,15 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pe.com.josean.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pe.josean.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Prueba Develop Test";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,7 +661,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KS5PB26T68;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -541,13 +673,15 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pe.com.josean.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pe.josean.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Prueba Develop Test";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -670,6 +804,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E89884A28D22C770017402B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E89884B28D22C770017402B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E89884A28D22C770017402B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6E5D10AC28F70510009E5BB3 /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E5D10AD28F70510009E5BB3 /* CompanyModel.xcdatamodel */,
+			);
+			currentVersion = 6E5D10AD28F70510009E5BB3 /* CompanyModel.xcdatamodel */;
+			path = TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6EE8AB7F27BD5E7300034EC7 /* Project object */;
 }
